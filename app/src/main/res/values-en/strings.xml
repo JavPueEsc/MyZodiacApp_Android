@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyZodiac</string>
+    <string name="txt_FechaNacimiento">In the vast cosmos, where the stars whisper secrets, reveal your birth date and discover what destiny the universe has in store for you.</string>
+    <string name="lbl_boton">Accept</string>
+    <string name="hint_cuadroFecha">Enter a date</string>
+    <string name="fechaVacia">You must enter a date.</string>
+
+    <string name="AniosNato">Age: </string>
+    <string name="AniosNoNato">Not yet born.</string>
+    <string name="AniosNatoEsDia">Welcome to the world of the living.</string>
+    <string name="PalabraAnios">years.</string>
+
+    <string name="lbl_FechaNacNato">Date of birth:</string>
+    <string name="lbl_FechaNacNatoEseDia">Date of birth: Today</string>
+    <string name="lbl_FechaNacNoNato">Expected date of birth:</string>
+
+    <string name="Capricornio">Capricorn.</string>
+    <string name="Acuario">Aquarius.</string>
+    <string name="Piscis">Pisces.</string>
+    <string name="Aries">Aries.</string>
+    <string name="Tauro">Taurus.</string>
+    <string name="Geminis">Gemini.</string>
+    <string name="Cancer">Cancer.</string>
+    <string name="Leo">Leo.</string>
+    <string name="Virgo">Virgo.</string>
+    <string name="Libra">Libra.</string>
+    <string name="Escorpio">Scorpio.</string>
+    <string name="Sagitario">Sagittarius.</string>
+
+    <string name="Eres">You are </string>
+    <string name="Sera">Will be </string>
+
+    <string name="descrip_Aries">Adventurous, energetic, brave, and competitive. Aries is a natural leader and loves challenges but can be impulsive and impatient.</string>
+    <string name="descrip_Tauro">Steady, practical, patient, and loyal. Taurus enjoys stability and comfort but can be stubborn; their determination is their greatest strength.</string>
+    <string name="descrip_Geminis">Communicative, curious, versatile, and sociable. Gemini loves learning and sharing ideas, though can be indecisive and a bit scattered.</string>
+    <string name="descrip_Cancer">Emotional, protective, sensitive, and loyal. Cancer is intuitive and connected with their emotions but can be overprotective and resistant to change.</string>
+    <string name="descrip_Leo">Confident, generous, creative, and charismatic. Leo loves being the center of attention and leading, though may appear egocentric or dominant.</string>
+    <string name="descrip_Virgo">Meticulous, organized, analytical, and helpful. Virgo is a perfectionist who loves helping others, though can sometimes be critical or overly detail-oriented.</string>
+    <string name="descrip_Libra">Diplomatic, fair, charming, and balanced. Libra seeks harmony and loves to please others, though can be indecisive and avoid conflict.</string>
+    <string name="descrip_Escorpio">Intense, mysterious, passionate, and loyal. Scorpio is emotionally deep with great willpower, but can be jealous and reserved.</string>
+    <string name="descrip_Sagitario">Adventurous, optimistic, sincere, and philosophical. Sagittarius loves freedom and new experiences, though can be impatient and a bit direct.</string>
+    <string name="descrip_Capricornio">Responsible, ambitious, disciplined, and practical. Capricorn works hard to achieve goals and values stability, though can be overly serious or inflexible.</string>
+    <string name="descrip_Acuario">Independent, humanitarian, original, and visionary. Aquarius thinks uniquely and cares about the greater good but can seem distant or unemotional.</string>
+    <string name="descrip_Piscis">Compassionate, imaginative, intuitive, and dreamy. Pisces is sensitive and empathetic with a strong emotional connection, though can be escapist or prone to daydreaming.</string>
+
+</resources>
