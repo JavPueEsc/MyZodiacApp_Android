@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Textos de la app-->
+    <style name="Texto_Negro" parent="@android:style/TextAppearance.Medium">
+        <item name="android:fontFamily">@font/aladdin</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/Negro_Fondo</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColorHint">@color/Negro_Fondo</item>
+    </style>
+    <!--Texto con letras más grandes-->
+    <style name="Texto_Negro.H1" parent="Texto_Negro">
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <style name="Texto_Negro.H2" parent="Texto_Negro">
+        <item name="android:textSize">30sp</item>
+    </style>
+    <!--Botones de la app-->
+    <style name="Botones_APP" parent="Widget.Material3.Button">
+        <item name="android:fontFamily">@font/aladdin</item>
+        <item name="android:textColor">@color/Amarillo_constelacion</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:backgroundTint">@color/Negro_Fondo</item>
+    </style>
+
+    <!--Estilo de la barra de título-->
+    <style name="Estilo_BarraTitulo" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@color/Negro_Fondo</item>
+        <item name="titleTextStyle">@style/Estilo_TextoBarraTitulo</item>
+    </style>
+
+    <!--Estilo texto barra titulo-->
+    <style name="Estilo_TextoBarraTitulo" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/Amarillo_constelacion</item>
+        <item name="android:fontFamily">@font/aladdin</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">34sp</item>
+    </style>
+
+    <!-- Calendario-->
+     <style name= "Estilo_ColoresCalendario" parent="Theme.AppCompat.Light.Dialog">
+       <item name="colorAccent">@color/Negro_Fondo</item>
+        <item name="android:windowBackground">@color/Amarillo_constelacion</item>
+        <item name="android:fontFamily">@font/aladdin</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/Estilo_BotonAceptar</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/Estilo_BotonCancelar</item>
+    </style>
+
+    <!--Botones del calendario, heredan de otro parent para que no sean redondeados los botones-->
+    <style name="Estilo_BotonAceptar" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/Negro_Fondo</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="Estilo_BotonCancelar" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/Negro_Fondo</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+</resources>
