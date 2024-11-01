@@ -3,9 +3,7 @@ package es.studium.practicatema3;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import java.util.Calendar;
 
 
@@ -15,7 +13,6 @@ public class SecondaryActivity extends AppCompatActivity {
     int anyo;
     int edad;
     String horoscopo ="";
-
     TextView txt_mostrarFecha;
     TextView txt_mostrarEdad;
     TextView txt_mostrarHoroscopo;
@@ -222,9 +219,6 @@ public class SecondaryActivity extends AppCompatActivity {
                     imagen.setImageResource(R.drawable.capricornio);
                     descripcionHoroscopo = getString(R.string.descrip_Capricornio);
                 }
-                break;
-            default:
-                horoscopo = "Fecha no válida";
                 break;
         }
         return horoscopo;
